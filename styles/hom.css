@@ -262,7 +262,7 @@ background-color: #717171;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("./cnt/bnr/w-b-lawn.jpg");
+  background-image: url("/cnt/bnr/w-b-lawn.jpg");
   min-width: 590px;
   height: 700px;
   background-size: cover;
