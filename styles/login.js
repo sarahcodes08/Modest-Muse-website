@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         
         // alert("Logging in...");
-        window.location.href = "hom.html";
+        window.location.href = "index.html";
       } catch (error) {
         alert(error.message);
       }
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.removeItem("userName");
         localStorage.removeItem("userEmail");
         updateNavbar(); // Update immediately if needed
-        window.location.href = "hom.html";
+        window.location.href = "index.html";
       }).catch((error) => {
         console.error("Logout Error:", error);
       });
